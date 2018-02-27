@@ -1,0 +1,66 @@
+/** { border: 1px solid #f00; }*/
+html {
+	font-family: Ubunut, Arial;
+}
+#container {
+	width: 500px;
+	margin: auto;
+}
+header { 
+	padding-bottom: 1em
+}
+h1 {
+	text-align: center;
+	color: #334;
+	margin-bottom: 0.5em;
+}
+.hits {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+footer {  }
+.menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 1em 0;
+	height: 2em;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menu li {
+	font-weight: bold;
+	display: inline;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+.season {
+  border-radius: 25px;
+	text-decoration: none;
+  padding: 10px 15px;
+  height: 100%;
+  background: #ccd;
+  color: #333;
+	opacity: 0.5;
+	transition: all 1s;
+}
+.season:hover {
+	opacity: 1;
+	transition: all 1s;
+  background-color: #abc;
+  color: #000;
+}
+.episode {
+	margin-bottom: 1em;
+}
+.title {
+	font-weight: bold;
+}
+.meta {
+	font-size: 80%;
+}
+.meta span {
+	display: block;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Season {{ seasonNumber }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"></style>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Season {{ seasonNumber }}</h1>
+			<div class="hits">
+				{{ hits }} page views on Wikipedia in the past 60 days
+			</div>
+		</header>
+		<main>
+			{% include 'menu.html' %}
+			{% if episodes %}
+				<div id="episodes">
+					{% for episode in episodes %}
+						<div class="episode">
+							<div class="title">{{ episode['title'] }}</div>
+							<div class="meta">
+								<span class="count">{{ episode['seasonCount'] }} in Season</span>
+								<span class="count">{{ episode['seriesCount'] }} in Series</span>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			{% else %}
+				Nah...
+			{% endif %}
+		</main>
+		<footer>
+			{% include 'menu.html' %}
+		</footer>
+	</div>
+</body>
+</html>

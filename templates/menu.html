@@ -1,0 +1,6 @@
+<ul class="menu">
+	<li><a href="/" class="season">Home</a></li>
+	{% for i in range(1, 11) %}
+		<li><a href="/season/{{i}}" class="season">{{i}}</a></li>
+	{% endfor %}
+</ul>
