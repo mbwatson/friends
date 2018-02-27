@@ -9,6 +9,9 @@ html {
 header { 
 	padding-bottom: 1em
 }
+.logo {
+	width: 100%;
+}
 h1 {
 	text-align: center;
 	color: #334;
