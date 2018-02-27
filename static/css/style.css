@@ -15,7 +15,8 @@ h1 {
 	margin-bottom: 0.5em;
 }
 .hits {
-	font-weight: bold;
+	font-style: italic;
+	text-align: center;
 	margin: 0;
 	padding: 0;
 }
@@ -35,6 +36,9 @@ footer {  }
 	display: inline;
   flex-grow: 1;
   vertical-align: middle;
+}
+a {
+	text-decoration: none;
 }
 .season {
   border-radius: 25px;
