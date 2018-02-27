@@ -6,5 +6,5 @@ Choose a season of Friends, and you'll find a list of the episodes in that seaso
 
 This project was made quickly late one night to learn a little about using Python to do two things:
 
-* Serving up dynamic web pages with [http://flask.pocoo.org/](Flask) and
-* Web scraping with [https://www.crummy.com/software/BeautifulSoup/](BeautifulSoup).
+* Serving up dynamic web pages with [Flask](http://flask.pocoo.org/) and
+* Web scraping with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/).
